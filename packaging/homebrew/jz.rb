@@ -9,7 +9,7 @@ class Jz < Formula
 
   def install
     libexec.install "jz-#{version}.jar"
-    bin.write_jar_script libexec/"jz-#{version}.jar", "jz"
+    bin.write_jar_script libexec/"jz-#{version}.jar", "jz", java_version: "17"
   end
 
   test do
