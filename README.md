@@ -40,7 +40,6 @@ sha256sum -c SHA256SUMS --ignore-missing
 | Any JVM 17+ | `jz-<v>.jar` | `java -jar jz-<v>.jar …` |
  | Nix (Linux / macOS) | flake | `nix run github:janzeerOrg/janzeer-cli -- info`; native image on Linux, jar on macOS (`flake.nix`, `packaging/nix/) |
  
-
 Node bundles after 0.1.10 (`janzeer-node-<v>-…`) ship the same `jz` next to the `janzeer` binary, so a validator operator gets it with the node.
 
 ## Sixty seconds
