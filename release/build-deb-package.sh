@@ -137,7 +137,7 @@ Version: $VER-$REVISION
 Section: utils
 Priority: optional
 Architecture: $DEBARCH
-Maintainer: Janzeer <janzeer@proton.me>
+Maintainer: Janzeer <janzeeer@proton.me>
 Depends: libc6 (>= 2.34), zlib1g
 Installed-Size: $SIZE
 Homepage: https://janzeer.org
